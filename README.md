@@ -16,7 +16,7 @@
 - **Gesture Recognition**  
   Recognize predefined hand gestures for triggering specific actions.
 
-  - **Virtual Cursor**  
+- **Virtual Cursor**  
   Control your mouse using your index finger as a pointer.
 
 
