@@ -1,20 +1,51 @@
-# Hand Gesture based Computer Control System
-This project utilizes OpenCV and MediaPipe to enable users to control various functionalities using hand gestures. By tracking hand landmarks in real time, the system allows users to:
+#  GesturePilot: Computer Control via Hand Movements  
+> A touchless interaction system powered by hand tracking
 
-✅ Control Volume – Adjust system volume by moving fingers closer or apart
+## Overview
 
-✅ Finger Counting – Detect the number of fingers held up
+**GesturePilot** is an intuitive hand-gesture-based interface that lets you control your computer without touching a keyboard or mouse. Built with computer vision and real-time hand tracking, it delivers seamless interaction for accessibility, hygienic environments, or just a bit of futuristic fun.
 
-✅ Virtual Cursor – Move the mouse pointer using the index finger
+## Features
 
-✅ Gesture Recognition – Detect and respond to predefined gestures
+- **Volume Control**  
+  Adjust your system’s volume by varying finger distance.
 
-The project is designed for an intuitive, touchless interface, making it useful for accessibility applications, touch-free controls, and interactive experiences.
+- **Finger Counting**  
+  Real-time detection of raised fingers.
 
-🛠 Tech Stack
+- **Gesture Recognition**  
+  Recognize predefined hand gestures for triggering specific actions.
 
-🔹 OpenCV – For real-time video processing
+  - **Virtual Cursor**  
+  Control your mouse using your index finger as a pointer.
 
-🔹 MediaPipe Hands – For hand landmark detection
 
-🔹 NumPy – For mathematical operations
+## ⚙️ Tech Stack
+
+| Tool           | Purpose                                |
+|----------------|----------------------------------------|
+| **OpenCV**     | Video capture and image processing     |
+| **MediaPipe**  | Hand landmark detection                |
+| **NumPy**      | Mathematical computation               |
+| **PyAutoGUI**  | Simulate mouse and keyboard events     |
+
+## Use Cases
+
+- Accessible control for people with motor impairments  
+- Touchless interfaces for kiosks and digital displays  
+- Control in sterile or non-contact-required environments  
+- Experimental interaction design and learning projects
+
+## 📦 Getting Started
+
+### Prerequisites
+- Python 3.7 or higher
+- Webcam
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/gesture-control.git
+cd gesture-control
+pip install -r requirements.txt
+python main.py
