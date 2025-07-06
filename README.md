@@ -45,7 +45,7 @@
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/gesture-control.git
+git clone https://github.com/amritofficial88/gesture-control.git
 cd gesture-control
 pip install -r requirements.txt
 python main.py
